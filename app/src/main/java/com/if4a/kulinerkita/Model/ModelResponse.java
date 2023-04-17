@@ -2,7 +2,7 @@ package com.if4a.kulinerkita.Model;
 
 import java.util.List;
 
-public class ModalResponse {
+public class ModelResponse {
     private String kode, pesan;
     private List<Modelkuliner> data;
 

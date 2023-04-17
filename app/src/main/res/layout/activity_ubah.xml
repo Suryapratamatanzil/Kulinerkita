@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".Activity.UbahActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ubah Kuliner"
+        android:textSize="35sp"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="20dp"
+        android:background="@color/black"
+        android:src="@drawable/logokuliner"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/et_nama"
+        android:hint="Nama"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:drawableStart="@drawable/baseline_person"
+        android:drawablePadding="5dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:background="@drawable/bg_corner"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/et_asal"
+        android:hint="Asal"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:drawableStart="@drawable/baseline_location_on_24"
+        android:drawablePadding="5dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:background="@drawable/bg_corner"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/et_deskripsi_singkat"
+        android:hint="Deskripsi Singkat"
+        android:drawableStart="@drawable/baseline_text_snippet_24"
+        android:drawablePadding="5dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textColorHint="@color/white"
+        android:background="@drawable/bg_corner"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_ubah"
+        android:text="Ubah"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="15dp"
+        app:cornerRadius="15dp"
+        android:padding="5dp"/>
+
+</LinearLayout>
