@@ -42,6 +42,7 @@
             android:id="@+id/tv_deskripsi_singkat"
             android:textColor="@color/white"
             android:text="Deskripsi Singkat"
+            android:maxLines="2"
             android:textSize="25sp"/>
         </LinearLayout>
         <LinearLayout
