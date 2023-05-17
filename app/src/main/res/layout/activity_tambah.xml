@@ -60,6 +60,7 @@
         android:drawablePadding="5dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
+        android:maxLength="250"
         android:textSize="20sp"
         android:padding="5dp"
         android:layout_marginTop="10dp"/>
